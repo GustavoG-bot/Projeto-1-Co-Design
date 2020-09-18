@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 html {
     height: 100%;
 }
@@ -104,28 +103,3 @@ input[type="submit"] {
 span {
     font-size: xx-large;
 }
-=======
-body {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-header {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 3rem;
-    border-bottom: .1rem solid black;
-}
-
-h2 {
-    justify-content: center;
-    font-size: 1.5rem;
-    text-decoration: underline;
-}
-
-p {
-    margin: 1rem;
-}
->>>>>>> c4f02dd3008f9c97ae1dbbe84b6077d167028e32
