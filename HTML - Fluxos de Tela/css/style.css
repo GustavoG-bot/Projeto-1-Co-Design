@@ -1,20 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
 
 html {
     height: 100%;
-    font-family: 'Roboto',  sans-serif;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', 'Lora' , sans-serif;
 }
 body {
     display: flex;
     flex-direction: column;
+    background-color: rgb(255,255,255);
     height: 100%;
 }
 
 header {
     position: relative;
-    color: white;
+    font-family: 'Roboto Slab', 'PT serif', serif;
+    color: rgb(255,255,255);
     background-color: #E60000;
     display: flex;
     justify-content: center;
@@ -49,10 +52,12 @@ main {
 
 ul {
     display: flex;
+    font-family: 'Roboto Slab', 'PT serif', serif;
     flex-direction: column;
     width: 100%;
     flex-grow: 1;
 }
+
 
 li {
     border-bottom: .1rem solid black;
@@ -80,6 +85,7 @@ h2 {
     margin: 1rem;
     font-size: 1.5rem;
     text-decoration: underline;
+    font-family: 'Roboto Slab', 'PT serif', serif;
 }
 
 form {
@@ -109,4 +115,8 @@ input[type="submit"] {
 }
 span {
     font-size: xx-large;
+}
+
+.foto {
+    padding: 1rem;
 }
